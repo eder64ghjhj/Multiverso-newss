@@ -6,65 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Eder Daniel">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="Noticia, html, corinthians">
-    <title>Portal De Noticias</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <meta name="keywords" content="Noticia, html, corinthians, demon slayer, formula 1, dragon ball, cavaleiros do zodiaco">
+    <title>Multiverso News | Seu Portal de Notícias</title>
+    <link rel="stylesheet" href= "/css/style.css">
 </head>
 
 <body>
-    <!-- Cabeçalho -->
     <header>
-        <img class="bandeira" width="15%" src="/img/bandeira.png" alt="Bandeira">
-        <h1 class="multiverso">Multiverso News</h1>
+        <div class="header-container">
+            <h1 class="multiverso">Multiverso News</h1>
+        </div>
 
-        <!-- Navegação -->
-        <nav>
+        <nav class="main-nav">
             <ul>
                 <li><a href="dragonball.html">Dragon Ball</a></li>
-                <li><a href="formula1.html">Formula 1</a></li>
+                <li><a href="formula1.html">Fórmula 1</a></li>
                 <li><a href="cavaleiros-do-zodiaco.html">Cavaleiros do Zodíaco</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Conteúdo Principal -->
     <main>
-        <h1>Demon Slayer e Corinthians: notícias em destaque</h1>
-
-        <div class="noticias-container">
-            <article class="principal">
-                <p>
-                    O filme de Demon Slayer: Mugen Train continua a impressionar os fãs com sua animação impecável e
-                    narrativa emocionante.
-                </p>
+        <h2>Notícias em Destaque</h2>
+        
+        <section class="news-grid">
+            <article class="card main-news">
+                <div class="card-image-container">
+                    <img src="/img/slayer.webp" alt="Personagens de Demon Slayer">
+                </div>
+                <div class="card-content">
+                    <h3>Demon Slayer: Mugen Train continua a impressionar</h3>
+                    <p>O filme de Demon Slayer: Mugen Train continua a impressionar os fãs com sua animação impecável e narrativa emocionante.</p>
+                </div>
             </article>
 
-            <article class="secundaria">
-                <h2>Corinthians elimina Palmeiras e avança na Copa do Brasil</h2>
-                <p>
-                    Em um clássico eletrizante, o Corinthians derrotou o Palmeiras e garantiu a classificação para a próxima
-                    fase da Copa do Brasil. Com uma atuação sólida e gols decisivos.
-                </p>
+            <article class="card main-news">
+                <div class="card-image-container">
+                    <img src="/img/corinthians.webp" alt="Jogadores do Corinthians comemorando">
+                </div>
+                <div class="card-content">
+                    <h3>Corinthians elimina Palmeiras e avança na Copa do Brasil</h3>
+                    <p>Em um clássico eletrizante, o Corinthians derrotou o Palmeiras e garantiu a classificação para a próxima fase da Copa do Brasil.</p>
+                </div>
             </article>
-        </div>
+        </section>
+
+        <aside class="extra-news">
+            <h3>Mais Notícias</h3>
+            <div class="extra-grid">
+                <article class="card extra-card">
+                    <img src="img/Gp-Hungria-2025.jpg" alt="GP da Hungria 2025">
+                    <p>Fórmula 1: GP da Hungria de 2025 terá novo formato.</p>
+                </article>
+                <article class="card extra-card">
+                    <img src="img/dragonball.jpg" alt="Goku de Dragon Ball Super">
+                    <p>Dragon Ball: Novo filme é anunciado com arte de Akira Toriyama.</p>
+                </article>
+                <article class="card extra-card">
+                    <img src="img/cavaleiros.jpg" alt="Cavaleiros do Zodíaco">
+                    <p>Cavaleiros do Zodíaco ganha nova série em streaming.</p>
+                </article>
+            </div>
+        </aside>
     </main>
 
-    <!-- Seções Extras -->
-    <div class="botao">
-        <img src="/img/Gp-Hungria-2025.jpg" alt="GP da Hungria 2025">
-    </div>
-
-    <div class="link">
-        <img src="/img/Gp-Hungria-2025.jpg" alt="GP da Hungria 2025">
-    </div>
-
-    <div class="chevrom">
-        <img src="/img/Gp-Hungria-2025.jpg" alt="GP da Hungria 2025">
-    </div>
-
-    <!-- Rodapé -->
     <footer>
+        <p>&copy; 2025 Multiverso News. Todos os direitos reservados.</p>
     </footer>
 </body>
-
 </html>

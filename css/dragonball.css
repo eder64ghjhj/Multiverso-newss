@@ -1,0 +1,153 @@
+/* Reset básico e tipografia */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #fce4b3; /* Cor inspirada no deserto de Dragon Ball */
+    color: #333;
+}
+
+/* Cabeçalho e Navegação */
+header {
+    background-color: #ff6600; /* Laranja de Goku */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.bandeira {
+    width: 50px;
+    height: auto;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.main-nav {
+    background-color: #007bff; /* Azul vibrante */
+    padding: 10px 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: #ffd700; /* Dourado de Super Saiyajin */
+}
+
+/* Conteúdo Principal */
+.main-content {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+.news-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Estilo dos Artigos (Cards) */
+/* ... seu código anterior ... */
+
+/* Estilo dos Artigos (Cards) */
+.news-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.article-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff6600;
+}
+
+/* AJUSTE AQUI: Torna o contêiner da imagem menor e centralizado */
+/* AJUSTE AQUI: Torna o contêiner da imagem menor e centralizado */
+.article-image-container {
+    max-width: 65%; /* Define a largura máxima do contêiner da imagem. */
+    margin: 0 auto 20px auto; /* Centraliza o contêiner e adiciona espaçamento abaixo. */
+    text-align: center;
+}
+
+.article-image-container img {
+    width: 100%; /* A imagem preenche 100% do novo contêiner, que agora é menor. */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.news-card p {
+    margin-bottom: 15px;
+}
+
+/* ... o restante do seu código ... */
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 2rem;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .article-title {
+        font-size: 1.5rem;
+    }
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    cursor: pointer; /* Adiciona o cursor de "mãozinha" ou seta */
+}
